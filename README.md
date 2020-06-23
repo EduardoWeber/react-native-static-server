@@ -1,4 +1,7 @@
 
+INFO: This fork was made because ther is a bug with nanohttpd 2.3.1 where the header will have Content-Length duplicated. To fix this the sources of nanohttpd 2.3.1 where recompiled with this fix: [9cd340f](https://github.com/NanoHttpd/nanohttpd/commit/9cd340f18884c71807da5ed687bc51450b7811d0 "9cd340f") the fixed source can be found here: [EduardoWeber/nanohttpd-project](https://github.com/EduardoWeber/nanohttpd-project "EduardoWeber/nanohttpd-project")
+
+------------
 # react-native-static-server
 
 A cross platform component for serving static assets with React Native.
