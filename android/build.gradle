@@ -74,9 +74,8 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
-    // implementation 'org.nanohttpd:nanohttpd:2.3.1'
-    implementation 'com.github.eduardoweber:nanohttpd:master-SNAPSHOT'
-    implementation 'org.nanohttpd:nanohttpd-webserver:2.3.1'
+    implementation files('libs/nanohttpd-2.3.1.jar')
+    implementation files('libs/nanohttpd-webserver-2.3.1.jar')
 }
 
 def configureReactNativePom(def pom) {
